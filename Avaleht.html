@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Of Pup's</title>
+    <link rel="stylesheet" href="avaleht.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+<body>
+        <div class="container">
+            <header>
+                <div class="menu">
+                    <div class="logo">
+                    <a href="#" title="World Of Pup's">
+                    <img src="pildid/Logo2.png" alt="WOP logo">
+                    </a>
+                </div>
+
+                <div class="burger" aria-label="Ava menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <nav class="ham" aria-label="menu">
+                    <ul>
+                        <li><a href="#">Avaleht</a></li>
+                        <li><a href="#">Mängust</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Info</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="slam" aria-label="webmenu">
+                    <ul>
+                        <li><a href="#">Avaleht</a></li>
+                        <li><a href="#">Mängust</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Info</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </header>
+
+<main>
+         <div class="algus">
+                <h1>World's largest puppy adventure game</h1>
+                <h4>Choose your life and make your name!</h4>
+                </div>
+
+                <div class="taust">
+                    <video id="video" loop autoplay muted plays-inline class="tausta-video">
+                        <source src="video/video-1.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="video-info" id="overlay-text">
+                        <h1 id="video-title">Police Officer</h1>
+                        <p id="video-text">Start your career as a brave Police Officer. Uphold the law, catch criminals, and climb the ranks!</p>
+                        <button id="next">Next</button>
+                    </div>
+                </div>
+</main>
+            <section class="cta">
+        <button class="open-modal" aria-label="Ava kontaktivorm" title="Register Now">
+          <span>Register Now</span>
+        </button>
+
+            </section>
+
+<div class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="contactForm">
+        <div class="modal">
+          <button class="sulgemine" aria-label="Sulge vorm">&times;</button>
+          <form action="sendmail.php" method="post" id="contactForm">
+            <input type="hidden" name="access_key" value="098a7843-7728-49ee-a694-81a8c8033304">
+            <label for="Username" class="sr-only">Username</label>
+            <input id="Username" type="text" name="Username" placeholder="Username" required>
+            <label for="Password" class="sr-only">Password</label>
+            <input id="Password" type="Password" name="Password" placeholder="Password" required>
+            <label for="nimi" class="sr-only">E-mail</label>
+            <input id="email" type="email" name="E-mail" placeholder="E-mail" required>
+            <button type="submit" class="submit">Register</button>
+          </form>
+        </div>
+      </div>
+<hr class="joon">
+                <div class="juhatus">
+                    <h3>Coming Soon</h3>
+                    <p>Explore the larger WOP map, tackle exciting new missions, meet unique characters, and unlock endless adventures! Check out what's waiting for you below!</p>
+                </div>
+
+<hr>
+
+                <section class="features-container" id="features-container">
+
+                </section>
+                     
+                <hr>
+<footer> More videos on Youtube - KoodiOrav</footer>
+     
+<script src="app.js"></script>
+</body>
+</html>
